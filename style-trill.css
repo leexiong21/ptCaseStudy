@@ -1,0 +1,24 @@
+
+body { background-color: #e6e6fa;
+    color:#333333;
+}
+h1 { background-color:#191970; color: #f7fcf8;
+    background-position: 60px 60px;
+    padding: 20px;
+    margin-bottom: 0;
+    font-size: 250%
+}
+nav {background-color: #aeaed4;
+    padding: 5px;
+}
+span { color: #ff4a14;
+}
+h2 {
+    background-color: #aeaed4;
+    color: #191970;
+}
+.feature {color: #ff0000;
+}
+#new {color: #ff00cc;
+}
+

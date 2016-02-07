@@ -1,0 +1,21 @@
+body { background-color: #c4ddd9;
+
+}
+h1 {background-color: #ffffff; height: 50px;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 25px;
+    background-position: 0;
+    font-family: "Times New Roman"; color: white;
+    font-size: 380%;
+}
+nav { background-color: #13b9ff;
+    border-color:#399eff;
+    padding: 5px;
+
+}
+h2 { color: #05085e;
+}

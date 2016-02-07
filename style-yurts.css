@@ -1,0 +1,19 @@
+body {background-color: #ecedeb;
+
+}
+header {background-color: #399eff;
+    background-image: url(images/yurtshero.jpg);
+    background-size: 100%;
+    margin-top: 0;
+    padding: 12px 12px;
+    background-position: 5% 5%;
+    font-size: 160%; color: #fdffff;
+}
+nav {background-color: #4ac0b8;
+    border-bottom-color: #55c04a;
+    padding: 5px;
+}
+h2{ font-family: "Arial"; color: #269ac0;
+}
+dt { font-family: "Times New Roman"; color:  #269ac0;
+}
