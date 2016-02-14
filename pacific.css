@@ -1,0 +1,44 @@
+
+body {background-color: #90c7e3;
+    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+}
+
+#wrapper{ background-color: #ffffff;
+     margin-left: 100px;
+     margin-right: 100px;
+    margin-bottom: 0;
+    box-shadow: 3px 3px 3px #333333;
+ }
+
+h1 {background-color: #ffffff;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 25px;
+    font-family: "Arial",Arial,sans-serif;
+    color: white;
+    font-size: 280%;
+    text-align: center;
+}
+nav {
+    background-color: #ffffff;
+    border-color: #3c72ff;
+    padding: 10px;
+    text-align: center;
+}
+.companyname {color: #62a0ff;
+    font-weight: bold;
+}
+h2 { color: rgba(35, 143, 203, 0.7);
+    text-decoration: #d2c389;
+    text-shadow: 3px 3px 3px gray;
+}
+ul{ list-style-image: url(images/marker.gif);
+}
+strong{ color: #729eff;
+}
+footer{text-align: center;
+
+}
