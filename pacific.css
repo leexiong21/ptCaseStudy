@@ -1,44 +1,99 @@
 
-body {background-color: #90c7e3;
-    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+body {background-color: #4F6D93;
+      background-image: linear-gradient(to bottom, #ffffff,#4F6D93);
+      font-family: Arial, Helvetica, sans-serif;
+      color: #666666;
 }
 
-#wrapper{ background-color: #ffffff;
-     margin-left: 100px;
-     margin-right: 100px;
-    margin-bottom: 0;
-    box-shadow: 3px 3px 3px #333333;
+#wrapper{ background-color: #90C7E3;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          min-width: 960px;
+          max-width: 2048px;
+          box-shadow: 3px 3px 3px #333333;
  }
 
-h1 {background-color: #ffffff;
-    background-image: url(images/sunset.jpg);
+header { background-color: #000033;
+         background-image: url(images/sunset.jpg);
+         background-repeat: no-repeat;
+         background-position: right;
+
+         padding-top: 15px;
+         font-family: "Georgia","Times New Roman",serif;
+         color: white;
+         height: 60px;
+         text-align: center;
+}
+h1 {margin-bottom: 0;
+    margin-top: 0;}
+
+nav {font-weight: bold;
+     float: left;
+     width:160px;
+     padding: 15px;
+
+}
+nav ul {list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+        font-size: 1.2em;
+}
+
+nav a {  display: block;
+        padding: 5px;
+}
+
+nav a:link { text-decoration: none;
+             color: #000033; }
+
+nav a:visited {color:#344873;}
+
+nav a:hover {color: #ffffff;}
+
+#homehero {background-image: url(images/coasthero.jpg);
+         margin-left: 190px;
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         height:300px;
+}
+#trailhero {background-image: url(images/trailhero.jpg);
+    margin-left: 190px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 25px;
-    font-family: "Arial",Arial,sans-serif;
-    color: white;
-    font-size: 280%;
-    text-align: center;
-}
-nav {
-    background-color: #ffffff;
-    border-color: #3c72ff;
-    padding: 10px;
-    text-align: center;
-}
-.companyname {color: #62a0ff;
-    font-weight: bold;
-}
-h2 { color: rgba(35, 143, 203, 0.7);
-    text-decoration: #d2c389;
-    text-shadow: 3px 3px 3px gray;
-}
-ul{ list-style-image: url(images/marker.gif);
-}
-strong{ color: #729eff;
-}
-footer{text-align: center;
+    height:300px;}
+#yurthero {background-image: url(images/yurthero.jpg);
+    margin-left: 190px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:300px;}
 
+main { background-color: #ffffff;
+       margin-left: 190px;
+       padding: 1px 20px 20px 30px;
+}
+.companyname {color: #5C7FA3;
+              font-weight: bold;
+}
+h2 { color: #3399CC;
+     text-shadow: 1px 1px 1px #cccccc;
+     font-family: "Georgia","Times New Roman",serif;
+}
+
+h3 { color: #000033;
+    font-family: "Georgia","Times New Roman",serif;}
+
+main ul{ list-style-image: url(images/marker.gif);
+
+}
+
+#contact {font-size: 90%;  }
+
+footer{ background-color: #ffffff;
+        margin-left: 190px;
+        padding:20px;
+        text-align: center;
+        font-style: italic;
+        font-family: "Georgia","Times New Roman",serif;
+        font-size: 75%;
 }
