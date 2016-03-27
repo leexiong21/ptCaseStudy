@@ -75,7 +75,7 @@ td, th { padding: 5px;
 
 td{text-align: center;}
 .text {text-align: left;}
-tr:nth-of-type(even){background-color: #f5fafc;}
+tr:nth-of-type(odd){background-color: #f5fafc;}
 
 .companyname {color: #5C7FA3;
               font-weight: bold;  }
