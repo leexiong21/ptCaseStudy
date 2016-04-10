@@ -16,7 +16,6 @@ header { background-color: #000033;
          background-image: url(images/sunset.jpg);
          background-repeat: no-repeat;
          background-position: right;
-
          padding-top: 15px;
          font-family: "Georgia","Times New Roman",serif;
          color: white;
@@ -36,7 +35,8 @@ nav ul {list-style-type: none;
         padding-left: 0;
         font-size: 1.2em;  }
 
-nav a {  display: block;  }
+nav a {  display: block;
+         transition:  color 3s ease-in-out;}
 
 nav a:link { text-decoration: none;
              color: #000033; }
@@ -64,8 +64,8 @@ nav a:hover {color: #ffffff;}
 
 main { background-color: #ffffff;
        margin-left: 190px;
-       padding: 1px 20px 20px 30px;
-}
+       padding: 1px 20px 20px 30px;  }
+
 table { border: 1px solid #3399CC;
         width: 80%;
         border-spacing: 0;  }
@@ -84,12 +84,56 @@ h2 { color: #3399CC;
      text-shadow: 1px 1px 1px #cccccc;
      font-family: "Georgia","Times New Roman",serif;  }
 
+video, embed {float: right; padding-left: 20px;}
+
 h3 { color: #000033;
      font-family: "Georgia","Times New Roman",serif;}
+
+label { float: left;
+        display: block;
+        width: 120px;
+        text-align: right;
+        padding-right: 4px;  }
+input textarea{display: block;
+               margin-bottom: 20px;  }
+input[type=submit]{margin-left: 130px;  }
 
 main ul{ list-style-image: url(images/marker.gif);  }
 
 #contact {font-size: 90%;  }
+
+#gallery { position: relative; }
+
+#gallery ul {list-style-type: none;
+            width: 300px;
+            height: 200px;
+            }
+
+#gallery li { display: inline;
+              float: left;
+              padding: 10px;  }
+
+#gallery img { border-style: none;  }
+
+#gallery a { text-decoration: none;
+             font-style: italic;
+             color: #202020;  }
+
+#gallery span { position: absolute;
+                left: -1000px;
+                opacity: 0;
+                transition:  opacity 3s ease-in-out;  }
+
+#gallery a:hover span {
+                position: absolute;
+                top: 16px;
+                left: 320px;
+                opacity: 1;  }
+
+figure {    position: absolute;
+            left: 280px;
+            text-align: center;
+            opacity: .25;  }
 
 footer{ background-color: #ffffff;
         margin-left: 190px;
@@ -99,8 +143,10 @@ footer{ background-color: #ffffff;
         font-family: "Georgia","Times New Roman",serif;
         font-size: 75%;  }
 
-header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
 
+header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
+#desktop{display: inline;}
+#mobile{display: none;}
 @media only screen and (max-width: 64em) {
 
     body {margin: 0; background-color: #ffffff;}
@@ -130,7 +176,8 @@ footer {margin-left: 0;
 }
 
 @media only screen and (max-width: 37.5em) {
-
+    #desktop{display: none;  }
+    #mobile{display: inline;}
     body{margin: 0;}
 
     #wrapper {  width: auto;  }
@@ -153,15 +200,20 @@ footer {margin-left: 0;
 
     nav li {  display: block;
               margin: 0;
-              font-size: 120%;
               text-align: center;
-              border-bottom: 2px solid #330000;
-              padding: 0.5%;}
+              border-bottom: 2px solid #330000;  }
+    label{ float: none;
+    text-align: left;}
+    input[type="submit"]
+            {margin-left: 0;}
+
+    #gallery {  display: none;}
 
     #homehero, #yurthero, #trailhero { display: none; height: 0;}
     footer { margin-left: 0;
              text-align: center;
-             width: auto;}
+             width: auto;
+             }
 
 }
 
